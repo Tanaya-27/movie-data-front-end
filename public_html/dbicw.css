@@ -1,0 +1,194 @@
+/*general*/
+body
+{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 12pt;
+	background: #c0c0ff;
+	text-transform: lowercase;
+}
+h1
+{
+	font-size: 15pt;
+	font-family: American Typewriter, serif;
+	text-transform: capitalize;
+}
+h2
+{
+	font-size: 13pt;
+	font-family: American Typewriter, serif;
+}
+*
+{
+	padding: 0;
+	margin: 1 1 px;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+/*heading - logo*/
+label.only
+{
+	color: azblackure;
+	font-size: 50px;
+	line-height: 100px;
+	padding-left: 50px;
+	font-weight: 50;
+	font-family: sans-serif;
+}
+label.tans
+{
+	color: azure;
+	font-size: 60px;
+	line-height: 100px;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	text-transform: capitalize;
+	font-weight: 60;
+}
+/*navigation bar*/
+nav
+{
+	background: #7575f1;
+	height: 100px;
+	width: 100%;
+	display: block;
+}
+nav ul
+{
+	float: right;
+	margin-right: 20px;
+}
+nav ul li
+{
+	display: inline-block;
+	line-height: 100px;
+	margin: 0 1 px;
+}
+nav ul li a
+{
+	color: azure;
+	font-size: 18px;
+	padding: 1px 10px;
+	border-radius: 3px;
+	text-transform: lowercase;
+}
+a:hover
+{
+	background: #282856;
+	transition: 0.2s;
+}
+/*hamburger icon - hide until page resized to 858*/
+label.checkbtn
+{
+	font-size: 30px;
+	float: right;
+	line-height: 50px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+	padding-top: 30px;
+}
+#check
+{
+	display: none;
+}
+
+/*resize navbar font when window shrinks*/
+@media (max-width: 1200px)
+{
+	label.tag
+	{
+		font-size: 30;
+		padding-left: 20px;
+	}
+	nav ul li a
+	{
+		font-size: 16px;
+	}
+}
+@media (max-width: 1100px)
+{
+	nav ul li a
+	{
+		font-size: 12.5px;
+	}
+}
+/*remove navbar elements and show hamburger icon (when page shrinks more)*/
+@media (max-width: 950px)
+{
+	label.checkbtn
+	{
+		display: block;
+	}
+	label.tag
+	{
+		padding: 25%;
+	}
+	ul
+	{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		background: #50506e;
+		top: 100px;
+		left: -100%;
+		text-align: center;
+		transition: all 0.2s;
+	}
+	nav ul li
+	{
+		display: block;
+		margin: 50px 0;
+		line-height: 30px;
+	}
+	nav ul li a
+	{
+		font-size: 20px;
+	}
+	a:hover
+	{
+		background: none;
+		color: #282856;
+	}
+}
+/*when hamburger icon clicked*/
+#check:checked ~ ul
+{
+	left: 0;
+}
+/*homepage image - fit to screen*/
+.image img
+{
+	width: 100%;
+	height: 75vh;
+	object-fit: cover;
+	background-position: center;
+}
+/*general buttons - colour, font, change background colour when mouse hovers*/
+input[type=submit]
+{
+	background: #b79ce4;
+	color: #fff;
+	border: 1px solid #eee;
+	box-shadow: 1px 1px 1px #eee;
+	text-shadow: none;
+	font-size: medium;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+input[type=submit]:hover 
+{
+	background: #8101bc;
+}
+button
+{
+	background: #c0c0ff;
+	font-family: sans-serif;
+	color: #fff;
+	border: 0.5px solid #b79ce4;
+	float: right;
+	margin-left: 90%;
+	cursor: pointer;
+}
+

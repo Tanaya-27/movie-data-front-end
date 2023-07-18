@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<title>Tanaya Patel</title>
+		<LINK rel="stylesheet" type='text/css' href="dbicw.css">
+		<script type="text/javascript" src="dbicw.js"></script>
+	</head>
+	<body>
+		<nav id="navbar" style="display: block;">
+			<input type="checkbox" id="check" class="toggle" name="chktoggle">
+			<label for="check" class="checkbtn">
+				<div class="burger">
+					<svg class="hamburger" width="50px" height="50px">
+						<g stroke-width="4px" stroke-linecap="round" stroke="azure">
+							<path d="M10 10 L60 10"/>
+							<path d="M10 20 L60 20"/>
+							<path d="M10 30 L60 30"/>
+						</g>
+					</svg>
+
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</div>
+			</label>
+			<label class="only">Only</label>
+			<label class="tans">Tans</label>
+			<ul>
+				<li><a class="active" href="dbicw.html">HOME</a></li>
+				<li><a class="active" href="search_movie.html">Search Movie</a></li>
+				<li><a class="active" href="search_actor.html">Search Actor</a></li>
+				<li><a class="active" href="add_movie.php">Add Movie</a></li>
+				<li><a class="active" href="add_actor.html">Add Actor</a></li>
+				<li><a class="active" href="delete_movie.php">Delete Movie</a></li>
+				<li><a class="active" href="delete_actor.php">Delete Actor</a></li>
+			</ul>
+		</nav>
+		<button onclick="hideBar()">X</button>
+		<form action="view_movie.php" onSubmit="return validate(this)">
+			<br>
+			<input type="submit" value="View Movies">
+		</form>
+		<form action="view_actor.php" onSubmit="return validate(this)">
+			<input type="submit" value="View Actors">
+		</form>
+		<div class="image">
+			<img src="Icon.jpg" alt="">
+		</div>
+
+	</body>
+</html>
