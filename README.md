@@ -17,13 +17,13 @@ The database, as declared above, might hold a large number of records (many of w
 will be linked) and so suitable functionality to search, add, and delete records without the
 need to type SQL statements each time will make the database overall more manageable.
 
-##Features
-###HTML
+## Features
+### HTML
 
-###CSS
+### CSS
 
-###JavaScript
+### JavaScript
 
-###PHP
+### PHP
 
-###SQL
+### SQL
