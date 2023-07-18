@@ -3,7 +3,7 @@ A web front-end for a movies database of two related tables, 'Movie' and 'Actor'
 
 This is a skeleton front-end with the usernames/passwords/hosts replaced with a placeholder, but demonstrations can be seen below.
 
-##The Purpose:
+## The Purpose:
 Having previously set up a database to hold information about film – including a Movie
 and an Actor table – a suitable website is necessary to navigate and update the data:
   Movie(mvID, actId, mvTitle, mvPrice, mvYear, mvGenre)
