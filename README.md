@@ -31,4 +31,4 @@ need to type SQL statements each time will make the database overall more manage
 
 - **PHP** to collect inputs from the html form and connect to the database[^fn] with them, performing various database operations with **SQL**
 
-[^fn]: Specific database details and passwords have been replaced with placeholders for this demonstration of the project - the system should work with any mysql database with the above descriptions.
+[^fn]: Specific database details and passwords have been replaced with placeholders for this demonstration of the project, which is therefore a skeleton front-end - the system works with a mysql database with the above descriptions.
