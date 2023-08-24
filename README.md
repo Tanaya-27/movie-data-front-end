@@ -8,8 +8,9 @@ Having previously set up a database to hold information about film – including
 and an Actor table – a suitable website is necessary to navigate and update the data:
 <br><br>
   Movie(mvID, actId, mvTitle, mvPrice, mvYear, mvGenre)
+  <br>
   Actor(actID, actName)
-<br><br><br>
+<br>
 
 ![image](https://github.com/Tanaya-27/movie-data-front-end/assets/75646651/7cccf2f5-09f1-420c-baaa-8f7d1de0bc97)
 
