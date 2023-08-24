@@ -6,10 +6,10 @@ This is a skeleton front-end with the usernames/passwords/hosts replaced with a 
 ## The Purpose:
 Having previously set up a database to hold information about film – including a Movie
 and an Actor table – a suitable website is necessary to navigate and update the data:
-<br>
+<br><br>
   Movie(mvID, actId, mvTitle, mvPrice, mvYear, mvGenre)
   Actor(actID, actName)
-<br>
+<br><br><br>
 
 ![image](https://github.com/Tanaya-27/movie-data-front-end/assets/75646651/7cccf2f5-09f1-420c-baaa-8f7d1de0bc97)
 
