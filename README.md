@@ -7,7 +7,7 @@ This is a skeleton front-end with the usernames/passwords/hosts replaced with a 
 Having previously set up a database to hold information about film – including a Movie
 and an Actor table – a suitable website is necessary to navigate and update the data:
 <br>
-  Movie(<u>mvID</u>, actId, mvTitle, mvPrice, mvYear, mvGenre)
+  Movie(mvID, actId, mvTitle, mvPrice, mvYear, mvGenre)
   Actor(actID, actName)
 <br>
 
