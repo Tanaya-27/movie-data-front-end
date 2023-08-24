@@ -6,8 +6,11 @@ This is a skeleton front-end with the usernames/passwords/hosts replaced with a 
 ## The Purpose:
 Having previously set up a database to hold information about film – including a Movie
 and an Actor table – a suitable website is necessary to navigate and update the data:
-  Movie(mvID, actId, mvTitle, mvPrice, mvYear, mvGenre)
+<br>
+  Movie(<u>mvID</u>, actId, mvTitle, mvPrice, mvYear, mvGenre)
   Actor(actID, actName)
+<br>
+![image](https://github.com/Tanaya-27/movie-data-front-end/assets/75646651/eec5e7ee-9d97-44dc-afa8-3cf8116329da)
 
 In the tables ‘Movie’ and ‘Actor’, the primary keys are mvID and actID respectively.
 actID is also a foreign key in the movies table, representing a one-to-many relationship
@@ -18,12 +21,10 @@ will be linked) and so suitable functionality to search, add, and delete records
 need to type SQL statements each time will make the database overall more manageable.
 
 ## Features
-### HTML
+- **HTML** to create the webpage itself
 
-### CSS
+- **CSS** to handle the style and layout (including font, background, colour cheme, images) of the webpages
 
-### JavaScript
+- **JavaScript** for form validation as well as a "hide bar" function
 
-### PHP
-
-### SQL
+- **PHP** to collect inputs from the html form and connect to the database with them, performing various database operations with **SQL**
