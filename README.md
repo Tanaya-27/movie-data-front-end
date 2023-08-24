@@ -10,7 +10,8 @@ and an Actor table – a suitable website is necessary to navigate and update th
   Movie(<u>mvID</u>, actId, mvTitle, mvPrice, mvYear, mvGenre)
   Actor(actID, actName)
 <br>
-![image](https://github.com/Tanaya-27/movie-data-front-end/assets/75646651/eec5e7ee-9d97-44dc-afa8-3cf8116329da)
+
+![image](https://github.com/Tanaya-27/movie-data-front-end/assets/75646651/7cccf2f5-09f1-420c-baaa-8f7d1de0bc97)
 
 In the tables ‘Movie’ and ‘Actor’, the primary keys are mvID and actID respectively.
 actID is also a foreign key in the movies table, representing a one-to-many relationship
